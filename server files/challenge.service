@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn service to serve the Service Fusion Challenge
+After=network.target
+
+[Service]
+User=galan
+Group=www-data
+WorkingDirectory=/home/galan/ServiceFusionChallenge
+Environment="PATH=/home/galan/ServiceFusionChallenge/challenge_env/bin/"
+ExecStart=/home/galan/ServiceFusionChallenge/challenge_env/bin/gunicorn --workers 3 --bind unix:challenge.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
