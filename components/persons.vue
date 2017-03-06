@@ -2,9 +2,11 @@
   <div id="persons">
     
     <!-- Header -->
-    <div class="header">
-      <h1>SKoPM</h1>
-      <h2>Some Kind of Persons Manager</h2>
+    <div class="header-bg">
+      <div class="header">
+        <h1>SKoPM</h1>
+        <h2>Some Kind of Persons Manager</h2>
+      </div>
     </div>
     
     <!-- persons table -->
@@ -75,15 +77,21 @@
     flex-direction: column;
   }
   
+  .header-bg {
+    width: 100vw;
+    background-color: rgb(200,203,200);
+    height: 87px;
+    margin: -30px -30px 0;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.1) inset;
+  }
   .header {
     color: white;
     background-color: #0d2b0d;
     width: 350px;
-    margin-left: -30px;
-    margin-top: -30px;
     padding: 10px 20px;
-    box-shadow: 3px 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.11);
     font-family: 'Proza Libre', 'Lato', sans-serif;
+    height: 70px;
   }
   @media screen and (orientation: portrait) {
     .header {

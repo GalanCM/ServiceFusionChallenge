@@ -80,11 +80,11 @@ var Component = __webpack_require__(6)(
   /* template */
   __webpack_require__(7),
   /* scopeId */
-  "data-v-b2d1af78",
+  "data-v-56f347ec",
   /* cssModules */
   null
 )
-Component.options.__file = "/home/galan/Dropbox/Service Fusion challenge/components/persons.vue"
+Component.options.__file = "/home/galan/ServiceFusionChallenge/components/persons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] persons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -95,9 +95,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b2d1af78", Component.options)
+    hotAPI.createRecord("data-v-56f347ec", Component.options)
   } else {
-    hotAPI.reload("data-v-b2d1af78", Component.options)
+    hotAPI.reload("data-v-56f347ec", Component.options)
   }
 })()}
 
@@ -7066,6 +7066,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = {
   data() {
@@ -7191,7 +7199,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* TODO: switch to less and clean up this mess */\n/* TODO: responsive design for mid-sized devices — too much whitespace*/\n#persons[data-v-b2d1af78] {\n  margin: 30px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n.header[data-v-b2d1af78] {\n  color: white;\n  background-color: #0d2b0d;\n  width: 350px;\n  margin-left: -30px;\n  margin-top: -30px;\n  padding: 10px 20px;\n  box-shadow: 3px 2px 4px rgba(0,0,0,0.1);\n  font-family: 'Proza Libre', 'Lato', sans-serif;\n}\n@media screen and (orientation: portrait) {\n.header[data-v-b2d1af78] {\n    width: 100vw;\n}\n}\nh1[data-v-b2d1af78] {\n  margin: auto;\n}\nh2[data-v-b2d1af78] {\n  margin: auto;\n  font-weight: 600;\n  font-size: 1.1em;\n  font-variant: small-caps;\n}\n.table[data-v-b2d1af78] {\n  margin: 10px auto;\n}\n@media screen and (min-width: 1280px) {\n.table[data-v-b2d1af78] {\n    width: 1280px;\n}\n}\n.table-item[data-v-b2d1af78] {\n  padding: 5px 10px;\n  border-bottom: 1px solid rgba(0,0,0,0.1);\n}\n.table-item[data-v-b2d1af78], .table-item > *[data-v-b2d1af78] {\n  width: 100%;\n  min-height: 42px;\n}\ninput[data-v-b2d1af78] {\n  border: 1px solid #ddd;\n  border-radius: 3px;\n  padding: 1px 5px;\n  box-shadow: 2px 1px 3px rgba(0,0,0,0.1) inset;\n}\n@media screen and (max-width: 1279px) {\n.table-item[data-v-b2d1af78] {\n    padding: 20px 10px 15px;\n    border-bottom: 1px solid rgba(0,0,0,0.5);\n}\n.edit-break[data-v-b2d1af78] {\n    display: none;\n}\ninput[data-v-b2d1af78] {\n    margin-left: 10px;\n}\n}\n@media screen and (max-width: 1279px) and (orientation: portait) {\n.pure-u-1[data-v-b2d1af78] {\n    line-height: 75px;\n}\n}\n@media screen and (max-width: 1279px) and (orientation: landscape) {\n.pure-u-1[data-v-b2d1af78] {\n    line-height: 35px;\n}\n}\nbutton.edit[data-v-b2d1af78] {\n  margin-left: auto;\n}\nbutton[data-v-b2d1af78]:not(.edit) {\n  margin-right: 40px;\n}\ninput[data-v-b2d1af78] {\n  max-width: 100%;\n}\nbutton.edit[data-v-b2d1af78] {\n  color: white;\n  background-color: #007300;\n}\nbutton.delete[data-v-b2d1af78] {\n  color: white;\n  background-color: #d20000;\n}\n.button-wrapper[data-v-b2d1af78] {\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\nbutton[data-v-b2d1af78] {\n  margin: auto 10px auto;\n}\n.pure-u-1[data-v-b2d1af78] {\n  margin: auto 0;\n}\n@media screen and (max-width: 1279px) {\n.button-wrapper[data-v-b2d1af78] {\n    margin-top: 20px;\n}\n}\n.new[data-v-b2d1af78] {\n  padding-top: 10px;\n}\n.new > div[data-v-b2d1af78] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 42px;\n}\n.new > div button[data-v-b2d1af78] {\n  margin: auto;\n}\n.new > form[data-v-b2d1af78] {\n  width: 100%;\n  padding: 10px;\n}\n.delete-modal[data-v-b2d1af78] {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  background-color: rgba(0,0,0,0.2);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.delete-modal-body[data-v-b2d1af78] {\n  background-color: white;\n  margin: auto;\n  padding: 10px 0 0;\n  min-width: 250px;\n}\n.delete-modal h1[data-v-b2d1af78]{\n  font-size: 1.2em;\n  font-weight: 400;\n  padding-bottom: 10px;\n  padding: 0 10px 10px;\n}\n.delete-modal-body div[data-v-b2d1af78] {\n  background-color: rgb(175,175,175);\n  padding: 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  box-shadow: 2px 1px 1px rgba(0,0,0,0.3);\n}\n.delete-modal-body button[data-v-b2d1af78] {\n  margin: auto;\n}\n.modal-enter[data-v-b2d1af78], .modal-leave-to[data-v-b2d1af78] {\n  background-color: rgba(0,0,0,0);\n}\n.modal-enter-active[data-v-b2d1af78], .modal-leave-active[data-v-b2d1af78] {\n  -webkit-transition: background-color 0.2s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: background-color 0.2s cubic-bezier(0.77, 0, 0.175, 1);\n}\n.modal-enter .delete-modal-body[data-v-b2d1af78], .modal-leave-to .delete-modal-body[data-v-b2d1af78] {\n  -webkit-transform: scale(0.2);\n          transform: scale(0.2);\n}\n.modal-enter-active .delete-modal-body[data-v-b2d1af78], .modal-leave-active .delete-modal-body[data-v-b2d1af78] {\n  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* TODO: switch to less and clean up this mess */\n/* TODO: responsive design for mid-sized devices — too much whitespace*/\n#persons[data-v-56f347ec] {\n  margin: 30px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n.header-bg[data-v-56f347ec] {\n  width: 100vw;\n  background-color: rgb(200,203,200);\n  height: 87px;\n  margin: -30px -30px 0;\n  box-shadow: 1px 2px 3px rgba(0,0,0,0.1) inset;\n}\n.header[data-v-56f347ec] {\n  color: white;\n  background-color: #0d2b0d;\n  width: 350px;\n  padding: 10px 20px;\n  box-shadow: 4px 5px 4px rgba(0,0,0,0.11);\n  font-family: 'Proza Libre', 'Lato', sans-serif;\n  height: 70px;\n}\n@media screen and (orientation: portrait) {\n.header[data-v-56f347ec] {\n    width: 100vw;\n}\n}\nh1[data-v-56f347ec] {\n  margin: auto;\n}\nh2[data-v-56f347ec] {\n  margin: auto;\n  font-weight: 600;\n  font-size: 1.1em;\n  font-variant: small-caps;\n}\n.table[data-v-56f347ec] {\n  margin: 10px auto;\n}\n@media screen and (min-width: 1280px) {\n.table[data-v-56f347ec] {\n    width: 1280px;\n}\n}\n.table-item[data-v-56f347ec] {\n  padding: 5px 10px;\n  border-bottom: 1px solid rgba(0,0,0,0.1);\n}\n.table-item[data-v-56f347ec], .table-item > *[data-v-56f347ec] {\n  width: 100%;\n  min-height: 42px;\n}\ninput[data-v-56f347ec] {\n  border: 1px solid #ddd;\n  border-radius: 3px;\n  padding: 1px 5px;\n  box-shadow: 2px 1px 3px rgba(0,0,0,0.1) inset;\n}\n@media screen and (max-width: 1279px) {\n.table-item[data-v-56f347ec] {\n    padding: 20px 10px 15px;\n    border-bottom: 1px solid rgba(0,0,0,0.5);\n}\n.edit-break[data-v-56f347ec] {\n    display: none;\n}\ninput[data-v-56f347ec] {\n    margin-left: 10px;\n}\n}\n@media screen and (max-width: 1279px) and (orientation: portait) {\n.pure-u-1[data-v-56f347ec] {\n    line-height: 75px;\n}\n}\n@media screen and (max-width: 1279px) and (orientation: landscape) {\n.pure-u-1[data-v-56f347ec] {\n    line-height: 35px;\n}\n}\nbutton.edit[data-v-56f347ec] {\n  margin-left: auto;\n}\nbutton[data-v-56f347ec]:not(.edit) {\n  margin-right: 40px;\n}\ninput[data-v-56f347ec] {\n  max-width: 100%;\n}\nbutton.edit[data-v-56f347ec] {\n  color: white;\n  background-color: #007300;\n}\nbutton.delete[data-v-56f347ec] {\n  color: white;\n  background-color: #d20000;\n}\n.button-wrapper[data-v-56f347ec] {\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\nbutton[data-v-56f347ec] {\n  margin: auto 10px auto;\n}\n.pure-u-1[data-v-56f347ec] {\n  margin: auto 0;\n}\n@media screen and (max-width: 1279px) {\n.button-wrapper[data-v-56f347ec] {\n    margin-top: 20px;\n}\n}\n.new[data-v-56f347ec] {\n  padding-top: 10px;\n}\n.new > div[data-v-56f347ec] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 42px;\n}\n.new > div button[data-v-56f347ec] {\n  margin: auto;\n}\n.new > form[data-v-56f347ec] {\n  width: 100%;\n  padding: 10px;\n}\n.delete-modal[data-v-56f347ec] {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  background-color: rgba(0,0,0,0.2);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n}\n.delete-modal-body[data-v-56f347ec] {\n  background-color: white;\n  margin: auto;\n  padding: 10px 0 0;\n  min-width: 250px;\n}\n.delete-modal h1[data-v-56f347ec]{\n  font-size: 1.2em;\n  font-weight: 400;\n  padding-bottom: 10px;\n  padding: 0 10px 10px;\n}\n.delete-modal-body div[data-v-56f347ec] {\n  background-color: rgb(175,175,175);\n  padding: 10px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  box-shadow: 2px 1px 1px rgba(0,0,0,0.3);\n}\n.delete-modal-body button[data-v-56f347ec] {\n  margin: auto;\n}\n.modal-enter[data-v-56f347ec], .modal-leave-to[data-v-56f347ec] {\n  background-color: rgba(0,0,0,0);\n}\n.modal-enter-active[data-v-56f347ec], .modal-leave-active[data-v-56f347ec] {\n  -webkit-transition: background-color 0.2s cubic-bezier(0.77, 0, 0.175, 1);\n  transition: background-color 0.2s cubic-bezier(0.77, 0, 0.175, 1);\n}\n.modal-enter .delete-modal-body[data-v-56f347ec], .modal-leave-to .delete-modal-body[data-v-56f347ec] {\n  -webkit-transform: scale(0.2);\n          transform: scale(0.2);\n}\n.modal-enter-active .delete-modal-body[data-v-56f347ec], .modal-leave-active .delete-modal-body[data-v-56f347ec] {\n  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n  transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22), -webkit-transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);\n}\n", ""]);
 
 // exports
 
@@ -7782,14 +7790,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("No")])])])]) : _vm._e()])], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
+    staticClass: "header-bg"
+  }, [_c('div', {
     staticClass: "header"
-  }, [_c('h1', [_vm._v("SKoPM")]), _vm._v(" "), _c('h2', [_vm._v("Some Kind of Persons Manager")])])
+  }, [_c('h1', [_vm._v("SKoPM")]), _vm._v(" "), _c('h2', [_vm._v("Some Kind of Persons Manager")])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-b2d1af78", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-56f347ec", module.exports)
   }
 }
 
@@ -7804,13 +7814,13 @@ var content = __webpack_require__(3);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(9)("9fbde5d6", content, false);
+var update = __webpack_require__(9)("0cd0ee7e", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-b2d1af78\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./persons.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-b2d1af78\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./persons.vue");
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-56f347ec\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./persons.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-56f347ec\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./persons.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
