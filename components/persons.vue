@@ -94,7 +94,11 @@
     height: 70px;
   }
   @media screen and (orientation: portrait) {
+    .header-bg {
+      height: auto;
+    }
     .header {
+      height: auto;
       width: 100vw;
     }
   }
